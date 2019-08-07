@@ -105,7 +105,7 @@ li {
   }
 
 .main.services {
-	height: 580px;
+	height: 620px;
 }
 
 .container {
@@ -152,6 +152,7 @@ li {
 	background-color: lightgray;
 	border: 1px solid black;
 	padding: 10px
+	/* height: 500px */
 }
 
 .boxes {
@@ -212,7 +213,8 @@ h1 {
 	border: 1px solid black;
 	width: 150px;
 	text-align: center;
-	
+	text-decoration: none;
+	color: black;
 }
 
 .contact {
