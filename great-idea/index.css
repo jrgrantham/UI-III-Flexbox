@@ -105,7 +105,7 @@ li {
   }
 
 .main.services {
-	height: 580px;
+	height: 620px;
 }
 
 .container {
@@ -152,6 +152,7 @@ li {
 	background-color: lightgray;
 	border: 1px solid black;
 	padding: 10px
+	/* height: 500px */
 }
 
 .boxes {
@@ -194,16 +195,17 @@ h1 {
 	float: right;
 } */
 
-a {
+.links a {
 	display: inline-block;
-	padding: 20px;
+	padding: 20px 20px 20px 0px;
 	text-decoration: none;
 	color: grey;
 }
 
 .logo {
 	position: relative;
-	right: 10px;
+	padding-top: 10px;
+	/* right: -10px; */
 }
 .button {
 	/* display: inline; */
@@ -211,7 +213,8 @@ a {
 	border: 1px solid black;
 	width: 150px;
 	text-align: center;
-	
+	text-decoration: none;
+	color: black;
 }
 
 .contact {
